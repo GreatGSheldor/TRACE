@@ -80,7 +80,6 @@ Open a local project or clone a public GitHub repository, browse project files, 
 ---
 
 ## Project Team
-|------|------|
 | Akshat Jain | Developer |
 
 ---
