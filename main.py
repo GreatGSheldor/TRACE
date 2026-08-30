@@ -18,11 +18,14 @@ except ModuleNotFoundError:
     tomllib = None
 
 ctk.set_appearance_mode("light")
+
+""" "theme.json" is a custom theme file that defines the color scheme and appearance of the application,
+    both Dark and light themes have similar styles but the application was intended and tested only for LIGHT MODE."""
 ctk.set_default_color_theme("theme.json")
 
 root = ctk.CTk()
 
-from text_style import HERO, TITLE, SUBTITLE, HEADING, SUBHEADING, BODYBIG, BODY, FONT_CODE
+from text_style import HERO, SUBTITLE, HEADING, SUBHEADING, BODYBIG, BODY, FONT_CODE
 
 from ai import (
     gemini_client,
@@ -624,11 +627,11 @@ def _render_text_result(window, text, mono=False):
 
 def _risk_color(band):
     return {
-        "Low": "#15803d",
-        "Medium": "#ca8a04",
-        "High": "#ea580c",
+        "Low": "#1f8d47",
+        "Medium": "#d49818",
+        "High": "#f85306",
         "Critical": "#b91c1c",
-    }.get(band, "#374151")
+    }.get(band, "#373895")
 
 
 def _render_risk_badge(parent, score):

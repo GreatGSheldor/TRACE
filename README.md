@@ -11,16 +11,18 @@
 </p>
 
 <p align="center">
-  By <strong>AkshatPaji</strong>
+  A Project By <strong>AkshatPaji</strong>
 </p>
 
 ---
 
 ## Overview
 
-TRACE is a desktop application for exploring and understanding software projects. (Prototpye - not finished product)
+TRACE is a desktop application for exploring and understanding software projects.
 
 Open a local project or clone a public GitHub repository, browse project files, inspect source code, preview images, review documentation, analyze dependencies, and understand repository structure from a modern desktop interface.
+
+> ### Future Plans: <br> the following repository will not be updated after date: 30th August 2026 otherthan for maintainance purpose, therefore the last release for TRACE is **2.0.2**. I am planning to migrate the app to TUI which will be the new updated version of the app and recieve constant updates. 
 
 ---
 
@@ -35,6 +37,7 @@ Open a local project or clone a public GitHub repository, browse project files, 
 | GitHub REST API | https://docs.github.com/en/rest |
 | Color Palette | https://coolors.co |
 | Debugging & Brainstorm | https://chatgpt.com + https://github.com/features/copilot |
+| Google Ai Studio (AI API Keys) | https://aistudio.google.com/ |
 
 ---
 
@@ -48,21 +51,9 @@ Open a local project or clone a public GitHub repository, browse project files, 
 - Image preview
 - Dependency analysis
 - Modern desktop interface
-
-### AI Analysis (Digital Forensics & Repository Intelligence)
-Available from the new
-**AI Analysis** section of the sidebar once a project is opened:
-
-| Feature | What it does |
-|---|---|
-| 🧠 Repository Summary | Gemini-powered overview: purpose, framework, languages, entry point, architecture, folder structure, key files, dependencies. |
-| 📄 Explain File | Explains the currently selected file's purpose, functions, classes, execution flow, bugs, and possible improvements. |
-| 💬 Repository Chat | Ask questions about the codebase ("What starts the application?", "Where is auth handled?"). Only relevant files are sent to Gemini, never the whole repo. |
-| 🛡️ Threat Scan | Static regex scan for dangerous APIs (`eval`, `exec`, `os.system`, `pickle.loads`, sockets, PowerShell invocation, registry access, etc.), optionally paired with an AI analyst summary. |
-| 🔑 Secret Scan | Static regex scan for exposed credentials (AWS/Google/Gemini keys, JWTs, private keys, passwords, bearer tokens, DB connection strings). |
-| 📋 Generate Report | Combines the summary, risk score (0-100), and both scans into a Markdown report you can export. |
-
-**Setup:** the AI features need a Gemini API key. Kindly make a file called "gemini_key.txt" in base-dir and paste your api-key there
+- AI Analysis
+  Available from the new **AI Analysis:** section of the sidebar once a project is opened.
+    ```(**Setup:** the AI features need a Gemini API key. Kindly make a file called "gemini_key.txt" in base-dir and paste your api-key there)```
 
 ## Screenshots
 
@@ -84,32 +75,13 @@ Available from the new
   <img src="assets/analysis.png" alt="Analysis Window" width="700">
 </p>
 
-<a href="https://github.com/GreatGSheldor/1000-TRACE/blob/master/demo-vid"> ### Demo Video </a>
-
-> Screenshots will be updated as TRACE evolves.
+> Screenshots may represent a previous version
 
 ---
 
 ## Project Team
-
-| Name | Role |
 |------|------|
 | Akshat Jain | Developer |
-
----
-
-## Roadmap
-
-| Status | Feature |
-|:------:|---------|
-| ⏳ | GTK4 desktop version |
-| ⏳ | Official TRACE website |
-| ⏳ | Cloud-based repository analysis |
-| ⏳ | Cross-platform support (Linux, Windows & macOS) |
-| ⏳ | Integration with the TriCode Development Suite |
-| ⏳ | Rich Markdown rendering |
-| ⏳ | Better repository statistics & insights |
-| ⏳ | Faster analysis engine |
 
 ---
 
@@ -143,8 +115,11 @@ Redistribution, modification, or commercial distribution without permission is p
 
 I am not responsible for any misuse, damages, or data loss resulting from the use of this software.
 
+For any complaint and acknowledgement/information: kindly contact <br> 
+<a href="mailto:akshatj0701@gmail.com">MAIL</a>
+
 ---
 
 <p align="center">
-Made with ❤️ by <strong>TriCode Club Labs</strong>
+Made with ❤️ by <strong>Akshat Jain aka AkiPaji</strong>
 </p>

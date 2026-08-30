@@ -2,7 +2,7 @@ import customtkinter as ctk
 
 HERO = ctk.CTkFont(
     family="Inter",
-    size=64,
+    size=65,
     weight="bold"
 )
 
@@ -20,7 +20,7 @@ SUBTITLE = ctk.CTkFont(
 
 HEADING = ctk.CTkFont(
     family="Inter",
-    size=40,
+    size=41,
     weight="bold"
 )
 
