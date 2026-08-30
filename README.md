@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  By <strong>TriCode Club Labs</strong>
+  By <strong>AkshatPaji</strong>
 </p>
 
 ---
@@ -21,8 +21,6 @@
 TRACE is a desktop application for exploring and understanding software projects. (Prototpye - not finished product)
 
 Open a local project or clone a public GitHub repository, browse project files, inspect source code, preview images, review documentation, analyze dependencies, and understand repository structure from a modern desktop interface.
-
-Originally built for **SFHS CODE Hack 7**, TRACE is now an active **TriCode Club Labs** project that will continue to evolve with new features and improvements.
 
 ---
 
@@ -97,9 +95,6 @@ Available from the new
 | Name | Role |
 |------|------|
 | Akshat Jain | Developer |
-| Mridul Thakur | Developer |
-
-Maintained by **TriCode Club Labs**.
 
 ---
 
@@ -146,7 +141,7 @@ You may use the software for personal, educational, and non-commercial purposes.
 
 Redistribution, modification, or commercial distribution without permission is prohibited.
 
-The developers and TriCode Club Labs are not responsible for any misuse, damages, or data loss resulting from the use of this software.
+I am not responsible for any misuse, damages, or data loss resulting from the use of this software.
 
 ---
 
