@@ -26,6 +26,42 @@ Open a local project or clone a public GitHub repository, browse project files, 
 
 ---
 
+## How to run
+
+# Setup
+
+  ## Installation
+
+  Clone the repository:
+
+  ```bash
+  git clone <repository-url>
+  cd <repository-folder>
+  ```
+
+  Install the required Python packages:
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+  You can also use a virtual environment if you want:
+
+  ```bash
+  python -m venv .venv
+  source .venv/bin/activate
+  pip install -r requirements.txt
+  ```
+
+  ## Running
+
+  After installing the dependencies, run:
+
+  ```bash
+  python main.py
+  ```
+
+
 ## Credits
 
 | Component | Credits |
